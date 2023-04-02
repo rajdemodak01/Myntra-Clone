@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+    position: sticky;
+    top: 0;
+    background-color: white;
+    height: 66px;
+}
+.left img{
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+}
+nav{
+    /*padding: 0 150px;*/
+    font-size: 15px;
+    /* padding-top: 14px; */
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* max-width: 92.4vw;
+    max-height: 10vh;  */
+    /* background-color: red; */
+    padding: 0 10vw;
+    /* margin: 13px 0px; */
+    /* height: 79px; */
+    
+}
+.container1{
+    padding: 0 10vw;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 0 12px;
+    /* margin-left: 25px; */
+    cursor: pointer;
+}
+.semibold{
+    font-weight: bolder;
+}
+.section1{
+    background-color: #eee9e9;
+    /* height: 120vh; */
+    flex-wrap: wrap;
+    
+}
+.desktop-searchBar{padding: 10px 15px;
+    width: 300px;
+    border: none;
+    background-color: #ece6e6;
+    border-radius: 5px;
+    font-size: 16px;
+    
+}
+.desktop-searchBar:focus{
+    background-color: white;
+}
+.home {
+    margin-top: 18px;
+    width: 80vw;
+}
+.imgitem {
+    width: 100%;
+    /* margin-right: 12px; */
+    
+}
+.grid1{
+    padding-top: 27px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 15px;
+}
+.inputBox{
+    display: flex;
+    align-items: center;
+    background-color: #ece6e6;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;    
+    border-radius: 5px;
+}
+.rightBox{
+    display: flex;
+    margin: 12px;
+  }
+.flexcolumn{
+    display: flex;
+    flex-direction: column;
+}
+.profile{
+    align-items: center;
+    cursor: pointer;
+}
+footer{
+    padding: 23px;
+    text-align: center;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+}
+.grid2{
+    padding-top: 27px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    
+}
+.section2{
+    background-color: rgb(246,246,246);
+    /* height: 120vh; */
+    flex-wrap: wrap;
+}
+img{
+    cursor: pointer;
+}
